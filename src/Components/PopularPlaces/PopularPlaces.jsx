@@ -1,8 +1,7 @@
-import React from 'react'
-import PopularPlaces from './PopularPlaces'
+import React from 'react';
 
 const PopularPlaces = () => {
-  return <div></div>
-}
+	return <div></div>;
+};
 
-export default PopularPlaces
+export default PopularPlaces;
