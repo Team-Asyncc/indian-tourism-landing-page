@@ -1,73 +1,61 @@
-
 .footer {
-    height: 500px;
-    width: 100%;
-    background-image: url("../../Components/Footer/R.jpg");
-    /* background-color: rgb(46, 46, 150); */
-    opacity: .8;
-    background-size: cover;
-    color: aliceblue; 
-    position: absolute;
-    bottom: 0;
-    padding-left: 100px;
-    padding-right: 100px;
-    font-family: sans-serif;
+  height: 500px;
+  width: 100%;
+  background-image: url('../../Components/Footer/R.jpg');
+  opacity: 0.8;
+  background-size: cover;
+  color: aliceblue;
+  position: relative;
+  bottom: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: sans-serif;
 }
 .right {
-    height: 480px;
-    width: 100%;
-    display: flex;
+  height: 480px;
+  width: 100%;
+  display: flex;
 }
 .aboutIndia {
-    width: 35%;
-    padding-right: 40px;
+  width: 35%;
+  padding-right: 40px;
 }
 .theory {
-    line-height: 1.5;
-    /* color: black; */
-    font-weight: bold;
+  line-height: 1.5;
+  /* color: black; */
+  font-weight: bold;
 }
 .about {
-    padding-top: 50px;
-}
-.head1 {
-    /* color: #4F0E0E; */
-
+  padding-top: 50px;
 }
 .tag {
-    width: 65%;
-    padding-top: 50px;
-    display: flex;
-    margin-left: 20px;
+  width: 65%;
+  padding-top: 50px;
+  display: flex;
+  margin-left: 20px;
 }
 .line {
-    height:3px;
-    background-color: aliceblue;
-    width: 150px;
+  height: 3px;
+  background-color: aliceblue;
+  width: 150px;
 }
-/* .lines {
-    height:3px;
-    background-color: black;
-} */
+
 .inline {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .box {
-    width: 190px;
-    height: 25px;
+  width: 190px;
+  height: 25px;
 }
 .stateTourism {
-    width: 600px;
+  width: 600px;
 }
 a {
-    color: aliceblue;
-    font-weight:600;
-    text-decoration: none;
+  color: aliceblue;
+  font-weight: 600;
+  text-decoration: none;
 }
 a:hover {
-    color: red;
+  color: red;
 }
-/* .bottom {
-    height:120px;
-} */
