@@ -9,6 +9,7 @@
   background-color: whitesmoke;
   height: 685px;
   width: 100%;
+ 
 }
 .nextKey {
   position: relative;
@@ -37,7 +38,7 @@
   box-sizing: border-box;
   box-shadow: -3px 3px 5px 0px rgba(189, 189, 189, 0.75),
     3px -3px 5px 0px rgba(189, 189, 189, 0.75);
-  height: 70vh;
+  height: 73vh;
 }
 
 .must-visit .cardContainer {
@@ -47,7 +48,7 @@
   // padding-right:1.9%;
   // padding-left:2.1%;
   justify-content: space-around;
-  overflow-x: hidden;
+  overflow: hidden;
   align-items: flex-start;
 }
 .must-visit .cards #image {
@@ -58,19 +59,22 @@
   border-radius: 2%;
 }
 .must-visit .cardContainer .card-contents {
-  margin: 18px;
+  // margin: 18px;
   padding: 5px;
+  overflow: hidden;
+  height: 30vw;
 }
 .must-visit p {
-  margin: 15px;
+  margin-top: 15px;
 }
 .header .info {
   margin: 0 auto;
 }
 .MustVisitInfo {
-  margin-top: 5%;
-  padding: 5px;
+  margin-top: 10%;
+  padding-top: 5px;
   text-align: center;
+  line-height: 11%;
 }
 .must-visit p {
   font-size: 1.2rem;

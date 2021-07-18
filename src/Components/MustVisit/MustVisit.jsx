@@ -46,46 +46,68 @@ const text = [
   },
   {
     title: 'Goa',
-    para: "The pocket-sized paradise of Goa is a traveller's dream. Sun, sea, sand, spices,...",
+    para: "The pocket-sized paradise of Goa is a traveller's dream. Sun...",
   },
   {
     title: 'Gokarna',
-    para: 'With stunning beaches, legendary temples and offering several adventure ...',
+    para: 'With stunning beaches, legendary temples and offering...',
   },
   {
     title: 'Kochi',
-    para: 'A vibrant potpourri of art, culture, food, carnivals and festivals,  ..',
+    para: 'A vibrant potpourri of art, culture, food, carnivals and festivals...',
   },
   {
     title: 'Bekal',
-    para: 'An emerald gem set amidst honey-hued beaches, pristine waterfalls and ..',
+    para: 'An emerald gem set amidst honey-hued beaches, pristine...',
   },
   {
     title: 'Statue of unity',
-    para: 'An emerald gem set amidst honey-hued beaches, pristine waterfalls..',
+    para: 'An emerald gem set amidst honey-hued beaches, pristine...',
   },
   {
     title: 'Munnar',
-    para: 'A lush carpet of rolling green, interrupted by low rises of mountains of..',
+    para: 'A lush carpet of rolling green, interrupted by low rises...',
   },
   {
     title: 'Shilong',
-    para: 'Colonial-era charm, a landscape of rolling green and pristine mountains ...',
+    para: 'Colonial-era charm, a landscape of rolling green and...',
   },
   {
     title: 'Wayanad',
-    para: 'A coffer of coffee, cardamom and tea plantations, which envelope the land...',
+    para: 'A coffer of coffee, cardamom and tea plantations, which...',
   },
 ];
+
+//shuffle fuction to change the order of cards
+function Shuffle(arr){
+  let len=arr.length;
+  for(let currentIndex=0;currentIndex<len;currentIndex++){
+  let randomIndex=Math.floor(Math.random()*len);
+  let temp=arr[currentIndex];
+  arr[currentIndex]=arr[randomIndex];
+  arr[randomIndex]=temp;
+
+  let temp1=text[currentIndex];
+  text[currentIndex]=text[randomIndex];
+  text[randomIndex]=temp1;
+}
+}
+Shuffle(datas);
+
 
 export default function MustVisit() {
   const [x, setX] = useState(0);
   function Prev() {
     x <= -600 ? setX(0) : setX(x - 124);
+    x<= -600 ? Shuffle(datas) : console.log('prev');;
   }
   function Next() {
     x >= 600 ? setX(0) : setX(x + 124);
+    x >= 600 ? Shuffle(datas) : console.log('next');;
   }
+
+  
+
   return (
     <>
       <div className="MustVisitInfo">
