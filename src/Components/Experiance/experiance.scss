@@ -1,6 +1,12 @@
 %border-check {
   border: 2px solid green;
 }
+// transition time
+$delay: 400ms;
+$box-bg: hsla(0, 0%, 0%, 0.459);
+%transition-box {
+  transition: all $delay ease-out;
+}
 * {
   margin: 0;
   padding: 0;
@@ -8,24 +14,25 @@
 }
 .experiance {
   text-align: center;
-
-  //   .cards {
-  //     text-align: justify;
-  //   }
 }
 .cards {
   @extend %border-check;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: center;
   .exp-card {
     @extend %border-check;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-position: center;
     background-size: cover;
     height: 200px;
-    width: 200px;
-    position: relative;
+    width: 300px;
     border-radius: 5px;
+    overflow: hidden;
   }
   .exp-name {
     position: absolute;
@@ -34,5 +41,51 @@
     width: 100%;
     background: rgba(0, 0, 0, 0.384);
     color: #fff;
+  }
+  .upper {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    top: 0%;
+    transform-origin: 100% 0%;
+    transform: rotate(90deg);
+    user-select: none;
+    pointer-events: none;
+    background: $box-bg;
+    @extend %transition-box;
+  }
+  .lower {
+    pointer-events: none;
+    user-select: none;
+    height: 50%;
+    bottom: 0%;
+    position: absolute;
+    width: 100%;
+    transform-origin: 0% 100%;
+    transform: rotate(90deg);
+    background: $box-bg;
+    @extend %transition-box;
+  }
+  .hover-name {
+    opacity: 0;
+    pointer-events: none;
+    color: #fff;
+    z-index: 2;
+    transition: all 60ms ease-out;
+  }
+  .exp-card:hover {
+    cursor: pointer;
+  }
+  .exp-card:hover .hover-name {
+    opacity: 1;
+    transform: scale(1.5);
+    transition: all 400ms;
+    transition-delay: $delay;
+  }
+  .exp-card:hover .upper {
+    transform: rotate(0deg);
+  }
+  .exp-card:hover .lower {
+    transform: rotate(0deg);
   }
 }

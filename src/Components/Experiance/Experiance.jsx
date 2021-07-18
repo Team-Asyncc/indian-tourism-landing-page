@@ -5,6 +5,9 @@ const Experiance = () => {
     console.log(`url${exp.url}`);
     return (
       <div className="exp-card" style={{ backgroundImage: `url(${exp.url})` }}>
+        <div className="upper"></div>
+        <div className="hover-name">{exp.name}</div>
+        <div className="lower"></div>
         <p className="exp-name">{exp.name}</p>
       </div>
     );
@@ -13,6 +16,38 @@ const Experiance = () => {
     {
       name: "Heritage",
       url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/spiritual/buddhism/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
+    },
+    {
+      name: "Nature and Wildlife",
+      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
+    },
+    {
+      name: "Nature and Wildlife",
+      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
+    },
+    {
+      name: "Nature and Wildlife",
+      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
+    },
+    {
+      name: "Nature and Wildlife",
+      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
+    },
+    {
+      name: "Nature and Wildlife",
+      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
+    },
+    {
+      name: "Nature and Wildlife",
+      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
+    },
+    {
+      name: "Nature and Wildlife",
+      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
+    },
+    {
+      name: "Nature and Wildlife",
+      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
     },
     {
       name: "Nature and Wildlife",
