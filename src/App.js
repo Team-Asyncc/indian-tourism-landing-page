@@ -1,7 +1,7 @@
-import './App.scss'
-import Navbar from './Components/Navbar/Navbar'
-import PopularPlaces from './Components/PopularPlaces/PopularPlaces'
-import Footer from './Components/Footer/Footer'
+import "./App.scss";
+import Navbar from "./Components/Navbar/Navbar";
+import PopularPlaces from "./Components/PopularPlaces/PopularPlaces";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <PopularPlaces />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
