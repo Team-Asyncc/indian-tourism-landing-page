@@ -16,13 +16,11 @@ $box-bg: hsla(0, 0%, 0%, 0.459);
   text-align: center;
 }
 .cards {
-  @extend %border-check;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
   .exp-card {
-    @extend %border-check;
     position: relative;
     display: flex;
     align-items: center;
@@ -30,7 +28,7 @@ $box-bg: hsla(0, 0%, 0%, 0.459);
     background-position: center;
     background-size: cover;
     height: 200px;
-    width: 300px;
+    width: 250px;
     border-radius: 5px;
     overflow: hidden;
   }
