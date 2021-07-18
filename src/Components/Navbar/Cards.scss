@@ -1,0 +1,46 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  //   flex: 1 0 250px;
+  //   width: 1px;
+  //   height: 150px;
+  box-shadow: 0 1px 1rem -4px #000;
+  background: #265b92 !important;
+  margin: 1rem;
+  color: white;
+  overflow: hidden;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+
+  img {
+    width: 250px;
+    height: 100px;
+    object-fit: center;
+  }
+
+  &:hover {
+    box-shadow: 0 4px 1rem -4px #000;
+    transform: translateY(-3px);
+  }
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 625px) {
+  .container {
+    width: 100%;
+  }
+
+  .cards-container {
+    padding: 0.5rem;
+  }
+
+  .card {
+    margin: 0.5rem;
+  }
+}

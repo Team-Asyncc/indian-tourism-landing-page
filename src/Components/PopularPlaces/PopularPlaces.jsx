@@ -1,7 +1,11 @@
 import React from 'react';
+import './PopularPlaces.scss'
+
 
 const PopularPlaces = () => {
-	return <div></div>;
+	return <div >
+	
+	</div>;
 };
 
 export default PopularPlaces;
