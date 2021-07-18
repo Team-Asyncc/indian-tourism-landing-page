@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './PopularTrips.css';
+import './PopularTrips.scss';
 import delhi from './TripImages/Delhi.jpeg';
 import hyderabad from './TripImages/Hyderabad.jpeg';
 import chennai from './TripImages/chennai.jpeg';
