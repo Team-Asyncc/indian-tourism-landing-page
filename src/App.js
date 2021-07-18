@@ -2,7 +2,7 @@ import './App.scss';
 import Navbar from './Components/Navbar/Navbar';
 import PopularPlaces from './Components/PopularPlaces/PopularPlaces';
 import Footer from './Components/Footer/Footer';
-import Experiance from './Components/Experiance/Experiance';
+import Experience from './Components/Experience/Experience';
 import { PopularTrips } from './Components/PopularTrips/PopularTrips';
 import MustVisit from './Components/MustVisit/MustVisit';
 import BigCarousel from './Components/Carousel/BigCarousel';
@@ -16,7 +16,7 @@ function App() {
       <PopularPlaces />
       <MustVisit />
       <PopularTrips />
-      <Experiance />
+      <Experience />
       <Footer />
     </div>
   );
