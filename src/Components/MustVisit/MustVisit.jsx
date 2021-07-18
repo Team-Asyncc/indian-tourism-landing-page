@@ -79,15 +79,12 @@ const text = [
 ];
 
 export default function MustVisit() {
-  const [currIdx, setCurrIdx] = useState(0);
   const [x, setX] = useState(0);
   function Prev() {
     x <= -600 ? setX(0) : setX(x - 124);
-    console.log(currIdx, x);
   }
   function Next() {
     x >= 600 ? setX(0) : setX(x + 124);
-    console.log(currIdx, x);
   }
   return (
     <>

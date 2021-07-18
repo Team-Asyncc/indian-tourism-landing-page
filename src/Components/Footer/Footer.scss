@@ -1,7 +1,6 @@
 .footer {
   height: 500px;
   width: 100%;
-  background-image: url('../../Components/Footer/R.jpg');
   opacity: 0.8;
   background-size: cover;
   color: aliceblue;
@@ -22,7 +21,7 @@
 }
 .theory {
   line-height: 1.5;
-  /* color: black; */
+  color: darkslategrey;
   font-weight: bold;
 }
 .about {
@@ -52,7 +51,7 @@
   width: 600px;
 }
 a {
-  color: aliceblue;
+  color: blueviolet;
   font-weight: 600;
   text-decoration: none;
 }

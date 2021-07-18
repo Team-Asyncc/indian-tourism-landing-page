@@ -1,8 +1,7 @@
-import React from "react";
-import "./experiance.scss";
+import React from 'react';
+import './experiance.scss';
 const Experiance = () => {
   const ExpCard = ({ exp }) => {
-    console.log(`url${exp.url}`);
     return (
       <div className="exp-card" style={{ backgroundImage: `url(${exp.url})` }}>
         <div className="upper"></div>
@@ -14,51 +13,43 @@ const Experiance = () => {
   };
   const demoData = [
     {
-      name: "Heritage",
-      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/spiritual/buddhism/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
+      name: 'Nature and Wildlife',
+      url: 'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg',
     },
     {
-      name: "Nature and Wildlife",
-      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
+      name: 'Nature and Wildlife',
+      url: 'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg',
     },
     {
-      name: "Nature and Wildlife",
-      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
+      name: 'Nature and Wildlife',
+      url: 'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg',
     },
     {
-      name: "Nature and Wildlife",
-      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
+      name: 'Nature and Wildlife',
+      url: 'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg',
     },
     {
-      name: "Nature and Wildlife",
-      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
+      name: 'Nature and Wildlife',
+      url: 'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg',
     },
     {
-      name: "Nature and Wildlife",
-      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
+      name: 'Nature and Wildlife',
+      url: 'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg',
     },
     {
-      name: "Nature and Wildlife",
-      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
+      name: 'Nature and Wildlife',
+      url: 'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg',
     },
     {
-      name: "Nature and Wildlife",
-      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
-    },
-    {
-      name: "Nature and Wildlife",
-      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
-    },
-    {
-      name: "Nature and Wildlife",
-      url: "https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg",
+      name: 'Nature and Wildlife',
+      url: 'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg',
     },
   ];
   return (
     <div className="experiance">
-      <h1>Immersive Experiance</h1>
+      <h1>Immersive Experience</h1>
       <p>In the land of opulence, let loose and discover yourself</p>
-      <div className="cards">
+      <div className="experienceCards">
         {demoData.map((exp, index) => (
           <ExpCard exp={exp} key={index} />
         ))}
