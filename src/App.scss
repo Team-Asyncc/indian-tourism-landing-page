@@ -1,4 +1,4 @@
-@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,4 +8,6 @@
 .App {
   background-color: whitesmoke;
   width: 100vw;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
