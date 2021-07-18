@@ -2,6 +2,7 @@ import React from 'react';
 import './experience.scss';
 const Experience = () => {
   const ExpCard = ({ exp }) => {
+    console.log(exp.url);
     return (
       <div className="exp-card" style={{ backgroundImage: `url(${exp.url})` }}>
         <div className="upper"></div>
@@ -13,36 +14,36 @@ const Experience = () => {
   };
   const demoData = [
     {
-      name: 'Nature and Wildlife',
-      url: 'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg',
+      name: 'Art',
+      url: './assets/art.jpg',
+    },
+    {
+      name: 'Heritage',
+      url: './assets/heritage.jpg',
+    },
+    {
+      name: 'Adventure',
+      url: './assets/adventure.jpg',
+    },
+    {
+      name: 'Museum',
+      url: './assets/museum.jpg',
+    },
+    {
+      name: 'Spiritual',
+      url: './assets/spiritual.jpg',
+    },
+    {
+      name: 'Luxury',
+      url: './assets/luxury.jpg',
+    },
+    {
+      name: 'Food and Cuisine',
+      url: './assets/foodAndCuisine.jpg',
     },
     {
       name: 'Nature and Wildlife',
-      url: 'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg',
-    },
-    {
-      name: 'Nature and Wildlife',
-      url: 'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg',
-    },
-    {
-      name: 'Nature and Wildlife',
-      url: 'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg',
-    },
-    {
-      name: 'Nature and Wildlife',
-      url: 'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg',
-    },
-    {
-      name: 'Nature and Wildlife',
-      url: 'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg',
-    },
-    {
-      name: 'Nature and Wildlife',
-      url: 'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg',
-    },
-    {
-      name: 'Nature and Wildlife',
-      url: 'https://www.incredibleindia.org/content/dam/incredible-india-v2/images/experiences/nature/1920-1080.jpg/jcr:content/renditions/cq5dam.web.512.384.jpeg',
+      url: './assets/natureandwildlife.jpg',
     },
   ];
   return (
