@@ -7,7 +7,7 @@
 .must-visit {
   display: flex;
   background-color: whitesmoke;
-  height: 600px;
+  height: 685px;
   width: 100%;
 }
 .nextKey {
@@ -16,6 +16,7 @@
   right: -94%;
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 .prevKey {
   position: relative;
@@ -24,6 +25,7 @@
   transform: translateY(-50%);
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 .must-visit .cardContainer .cards {
   transition: transform 0.7s ease-in-out;

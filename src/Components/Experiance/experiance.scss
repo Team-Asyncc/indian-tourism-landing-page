@@ -14,12 +14,13 @@ $box-bg: hsla(0, 0%, 0%, 0.459);
 }
 .experiance {
   text-align: center;
+  margin-top: 5rem;
 }
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
+.experienceCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  justify-items: center;
   .exp-card {
     position: relative;
     display: flex;
@@ -28,7 +29,7 @@ $box-bg: hsla(0, 0%, 0%, 0.459);
     background-position: center;
     background-size: cover;
     height: 200px;
-    width: 250px;
+    width: 300px;
     border-radius: 5px;
     overflow: hidden;
   }

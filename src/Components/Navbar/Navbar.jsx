@@ -40,12 +40,11 @@ const Navbar = () => {
           </div>
         </ul>
       </div>
-      <div className="image-navbar">
-        <img
-          src="https://www.incredibleindia.org/content/dam/incredible-india-v2/images/inc-india-logo.svg"
-          alt="logo"
-        />
-      </div>
+      <img
+        src="https://www.incredibleindia.org/content/dam/incredible-india-v2/images/inc-india-logo.svg"
+        alt="logo"
+        id="navbarImg"
+      />
       <div className="third-menu">
         <ul className="nav-menu">
           <div

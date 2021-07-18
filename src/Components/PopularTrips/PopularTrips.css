@@ -1,8 +1,7 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family:cursive; */
 }
 .list-item {
   display: flex;
@@ -14,16 +13,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(221, 221, 221);
+  background-color: whitesmoke;
 }
 
 .list {
-  height: 370px;
-  width: 100%;
+  height: 400px;
+  width: 400px;
   border-radius: 4px;
   border: 5px solid rgb(240, 230, 230);
   margin: 10px;
-  margin: 2%  3.5%;
+  margin: 2% 3.5%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -31,15 +30,13 @@
   font-size: 20px;
 }
 
-.list-item-container{
+.list-item-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
 .btn {
-  height: 60px;
-  width: 350px;
   display: flex;
   justify-content: center;
 }
@@ -52,9 +49,11 @@ button {
   font-size: 18px;
   letter-spacing: 0.4mm;
   margin: 10px;
-  padding: 10px;
+  padding: 5px 10px;
   background-color: rgb(255, 255, 255);
   color: black;
+  border: 1px solid slategray;
+  border-radius: 5px;
 }
 
 .btn-children :hover {
@@ -62,6 +61,6 @@ button {
   cursor: pointer;
 }
 
-.list > h3{
+.list > h3 {
   margin-bottom: 4%;
 }
