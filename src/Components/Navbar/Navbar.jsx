@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './Navbar.scss';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
+
 import Dropdown1 from './Dropdown1';
 import Dropdown2 from './Dropdown2';
 import Dropdown3 from './Dropdown3';
