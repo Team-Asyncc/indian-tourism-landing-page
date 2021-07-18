@@ -24,8 +24,8 @@ const Experiance = () => {
       <h1>Immersive Experiance</h1>
       <p>In the land of opulence, let loose and discover yourself</p>
       <div className="cards">
-        {demoData.map((exp) => (
-          <ExpCard exp={exp} />
+        {demoData.map((exp, index) => (
+          <ExpCard exp={exp} key={index} />
         ))}
       </div>
     </div>
