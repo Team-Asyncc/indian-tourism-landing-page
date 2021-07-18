@@ -11,8 +11,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <PopularPlaces />
+
       <BigCarousel />
+      <PopularPlaces />
       <MustVisit />
       <PopularTrips />
       <Experiance />

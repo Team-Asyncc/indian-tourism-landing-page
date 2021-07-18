@@ -1,0 +1,34 @@
+.card {
+  height: 300px;
+  width: 200px;
+  background-color: pink;
+  margin: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.image2 {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  transition: .3s;
+  cursor: pointer;
+  z-index: 333;
+}
+
+.card :hover{
+transform: scale(1.1);
+}
+
+.text {
+  position: absolute;
+  bottom: 0px;
+  color: rgb(245, 239, 239);
+  font-weight: bold;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
