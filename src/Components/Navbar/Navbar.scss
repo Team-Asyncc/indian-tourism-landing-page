@@ -1,0 +1,25 @@
+.nav-menu {
+  display: flex;
+  margin-left: 10%;
+}
+.navbar {
+  width: 100%;
+  height: 60px;
+
+  //   background-color: blue;
+}
+.items {
+  height: 60px;
+  width: 10%;
+  //   margin-right: 10%;
+  cursor: pointer;
+  padding: 20px;
+  //   background-color: pink;
+}
+ul {
+  list-style-type: none;
+}
+.logo-image {
+  padding: 20px;
+  margin-right: 50%;
+}
