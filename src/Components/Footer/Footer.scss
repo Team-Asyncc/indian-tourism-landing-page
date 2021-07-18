@@ -1,0 +1,73 @@
+
+.footer {
+    height: 500px;
+    width: 100%;
+    background-image: url("../../Components/Footer/R.jpg");
+    /* background-color: rgb(46, 46, 150); */
+    opacity: .8;
+    background-size: cover;
+    color: aliceblue; 
+    position: absolute;
+    bottom: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: sans-serif;
+}
+.right {
+    height: 480px;
+    width: 100%;
+    display: flex;
+}
+.aboutIndia {
+    width: 35%;
+    padding-right: 40px;
+}
+.theory {
+    line-height: 1.5;
+    /* color: black; */
+    font-weight: bold;
+}
+.about {
+    padding-top: 50px;
+}
+.head1 {
+    /* color: #4F0E0E; */
+
+}
+.tag {
+    width: 65%;
+    padding-top: 50px;
+    display: flex;
+    margin-left: 20px;
+}
+.line {
+    height:3px;
+    background-color: aliceblue;
+    width: 150px;
+}
+/* .lines {
+    height:3px;
+    background-color: black;
+} */
+.inline {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    width: 190px;
+    height: 25px;
+}
+.stateTourism {
+    width: 600px;
+}
+a {
+    color: aliceblue;
+    font-weight:600;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+/* .bottom {
+    height:120px;
+} */
