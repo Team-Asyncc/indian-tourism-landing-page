@@ -1,0 +1,38 @@
+%border-check {
+  border: 2px solid green;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.experiance {
+  text-align: center;
+
+  //   .cards {
+  //     text-align: justify;
+  //   }
+}
+.cards {
+  @extend %border-check;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  .exp-card {
+    @extend %border-check;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 5px;
+  }
+  .exp-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.384);
+    color: #fff;
+  }
+}
