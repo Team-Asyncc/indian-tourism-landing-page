@@ -1,6 +1,6 @@
 import React from 'react';
-import './experiance.scss';
-const Experiance = () => {
+import './experience.scss';
+const Experience = () => {
   const ExpCard = ({ exp }) => {
     return (
       <div className="exp-card" style={{ backgroundImage: `url(${exp.url})` }}>
@@ -46,7 +46,7 @@ const Experiance = () => {
     },
   ];
   return (
-    <div className="experiance">
+    <div className="experience">
       <h1>Immersive Experience</h1>
       <p>In the land of opulence, let loose and discover yourself</p>
       <div className="experienceCards">
@@ -58,4 +58,4 @@ const Experiance = () => {
   );
 };
 
-export default Experiance;
+export default Experience;
