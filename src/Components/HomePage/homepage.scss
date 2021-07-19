@@ -8,7 +8,7 @@
   align-items: center;
   background: #111;
   transition: 0.5s;
-  video {
+  & > video {
     position: absolute;
     top: 0;
     left: 0;
@@ -17,7 +17,7 @@
     object-fit: cover;
     opacity: 0.8;
   }
-  .overlay {
+  & > .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -26,30 +26,31 @@
     background: hsla(199, 98%, 48%, 0.411);
     mix-blend-mode: overlay;
   }
-  .text {
+  & > .text {
     position: relative;
     background: rgba(0, 128, 0, 0.116);
     width: 30rem;
     padding: 2rem;
     mix-blend-mode: exclusion;
     border-radius: 1rem;
+    user-select: none;
   }
 
-  .text h2 {
+  & > .text h2 {
     font-size: 5em;
     font-weight: 800;
     color: #fff;
     line-height: 1em;
     text-transform: uppercase;
   }
-  .text h3 {
+  & > .text h3 {
     font-size: 4em;
     font-weight: 700;
     color: #fff;
     line-height: 1em;
     text-transform: uppercase;
   }
-  .text a {
+  & > .text a {
     display: inline-block;
     font-size: 1em;
     background: rgba(255, 255, 255, 0.829);
@@ -62,17 +63,17 @@
     letter-spacing: 2px;
     transition: 0.2s;
   }
-  .text a:hover {
+  & > .text a:hover {
     letter-spacing: 6px;
   }
   @media (max-width: 991px) {
-    .text {
+    & > .text {
       padding: 40px;
     }
-    .text h2 {
+    & > .text h2 {
       font-size: 3em;
     }
-    .text h3 {
+    & > .text h3 {
       font-size: 2em;
     }
   }
