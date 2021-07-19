@@ -7,6 +7,8 @@ import { PopularTrips } from './Components/PopularTrips/PopularTrips';
 import MustVisit from './Components/MustVisit/MustVisit';
 import BigCarousel from './Components/Carousel/BigCarousel';
 import HomePage from './Components/HomePage/HomePage';
+import Form from './Components/Form/Form';
+import Toastify from './Components/Toast/Toast';
 function App() {
   return (
     <div className="App">
@@ -17,7 +19,9 @@ function App() {
       <MustVisit />
       <PopularTrips />
       <Experience />
+      <Form />
       <Footer />
+      <Toastify />
     </div>
   );
 }
