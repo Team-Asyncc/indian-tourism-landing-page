@@ -8,7 +8,7 @@ const HomePage = () => {
       <div className="text">
         <h2>Never Stop To </h2>
         <h3>Exploring The World</h3>
-        <a href="#">Explore</a>
+        <a href="https://www.incredibleindia.org/content/incredible-india-v2/en/destinations/popular-destinations.html">Explore</a>
       </div>
     </div>
   );
