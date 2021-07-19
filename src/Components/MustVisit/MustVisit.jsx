@@ -96,11 +96,11 @@ Shuffle(datas);
 
 export default function MustVisit() {
   const [x, setX] = useState(0);
-  function Prev() {
+  function Next() {
     x <= -600 ? setX(0) : setX(x - 124);
     x <= -600 ? Shuffle(datas) : console.log('prev');
   }
-  function Next() {
+  function Prev() {
     x >= 600 ? setX(0) : setX(x + 124);
     x >= 600 ? Shuffle(datas) : console.log('next');
   }
