@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 .footer {
   height: 500px;
   width: 100%;
@@ -8,7 +9,8 @@
   bottom: 0;
   padding-left: 100px;
   padding-right: 100px;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 .right {
   height: 480px;
@@ -21,7 +23,7 @@
 }
 .theory {
   line-height: 1.5;
-  color: darkslategrey;
+  color: black;
   font-weight: bold;
 }
 .about {
@@ -58,4 +60,8 @@ a {
 }
 a:hover {
   color: red;
+}
+.stateTourism,
+.utTourism {
+  color: black;
 }
