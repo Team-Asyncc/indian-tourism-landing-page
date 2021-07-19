@@ -79,34 +79,31 @@ const text = [
 ];
 
 //shuffle fuction to change the order of cards
-function Shuffle(arr){
-  let len=arr.length;
-  for(let currentIndex=0;currentIndex<len;currentIndex++){
-  let randomIndex=Math.floor(Math.random()*len);
-  let temp=arr[currentIndex];
-  arr[currentIndex]=arr[randomIndex];
-  arr[randomIndex]=temp;
+function Shuffle(arr) {
+  let len = arr.length;
+  for (let currentIndex = 0; currentIndex < len; currentIndex++) {
+    let randomIndex = Math.floor(Math.random() * len);
+    let temp = arr[currentIndex];
+    arr[currentIndex] = arr[randomIndex];
+    arr[randomIndex] = temp;
 
-  let temp1=text[currentIndex];
-  text[currentIndex]=text[randomIndex];
-  text[randomIndex]=temp1;
-}
+    let temp1 = text[currentIndex];
+    text[currentIndex] = text[randomIndex];
+    text[randomIndex] = temp1;
+  }
 }
 Shuffle(datas);
-
 
 export default function MustVisit() {
   const [x, setX] = useState(0);
   function Prev() {
     x <= -600 ? setX(0) : setX(x - 124);
-    x<= -600 ? Shuffle(datas) : console.log('prev');;
+    x <= -600 ? Shuffle(datas) : console.log('prev');
   }
   function Next() {
     x >= 600 ? setX(0) : setX(x + 124);
-    x >= 600 ? Shuffle(datas) : console.log('next');;
+    x >= 600 ? Shuffle(datas) : console.log('next');
   }
-
-  
 
   return (
     <>

@@ -7,7 +7,7 @@
   //   width: 1px;
   //   height: 150px;
   box-shadow: 0 1px 1rem -4px #000;
-  background: #265b92 !important;
+  background: #000000a6 !important;
   margin: 1rem;
   color: white;
   overflow: hidden;
@@ -17,7 +17,7 @@
 
   img {
     width: 200px;
-    height: 100px;
+    height: 170px;
     object-fit: center;
   }
 
@@ -28,7 +28,7 @@
 }
 
 .card-content {
-  padding: 1rem;
+  padding: 0.1rem 1rem 1rem 1rem;
 }
 
 @media screen and (max-width: 625px) {
