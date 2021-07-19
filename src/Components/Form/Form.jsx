@@ -14,7 +14,7 @@ const Form = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.put(
+     await axios.put(
         'https://async-tourism.herokuapp.com/add',
         data
       );
