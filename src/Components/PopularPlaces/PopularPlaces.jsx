@@ -19,9 +19,9 @@ const data = [
 
 const PopularPlaces = () => {
   return (
-    <div>
+    <div className={placecss.popularplacescontainer}>
       <br />
-      <h1 style={{ textAlign: 'center', marginTop: '2%' }}>Popular Places</h1>
+      <h1 style={{ textAlign: 'center', marginTop: '3%' ,marginBottom:"2%" }}>Popular Places</h1>
       <div className={placecss.cardcontainer}>
         {data.map((card, index) => (
           <Card title={card.title} key={index} imageurl={card.img} />

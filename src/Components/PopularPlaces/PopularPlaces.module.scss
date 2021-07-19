@@ -1,6 +1,13 @@
 .cardcontainer {
- margin: auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+}
+
+.popularplacescontainer{
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
 }
