@@ -1,4 +1,3 @@
-
 # Indian Tourism Website🌼
 
 ##   [Click Here](https://async-india.netlify.app/)
@@ -9,6 +8,11 @@ India has a myriad of landscapes, great heritage and culture, varied flora and f
 
 
 ## Screenshots
+![Screenshot (10)](https://user-images.githubusercontent.com/56041735/126160240-1b142d5b-ec7d-424c-8776-f1d5e485ea37.png)
+![Screenshot (6)](https://user-images.githubusercontent.com/56041735/126160256-042dad3d-8ff6-4a52-a67a-28045210c8a8.png)
+![Screenshot (8)](https://user-images.githubusercontent.com/56041735/126160265-5bb98b05-074a-4152-a929-1af118e07f2e.png)
+![Screenshot (9)](https://user-images.githubusercontent.com/56041735/126160273-9587dceb-69d4-4425-8932-c523b5942614.png)
+
 
 
 ## Tech Stack
