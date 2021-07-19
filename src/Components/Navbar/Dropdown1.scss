@@ -1,4 +1,7 @@
 .drop-down {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
   height: auto;
   background-color: #17406c;

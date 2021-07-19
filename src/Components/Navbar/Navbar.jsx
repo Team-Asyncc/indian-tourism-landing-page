@@ -7,11 +7,13 @@ import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 import Dropdown1 from './Dropdown1';
 import Dropdown2 from './Dropdown2';
 import Dropdown3 from './Dropdown3';
+import Dropdown4 from './Dropdown4';
 
 const Navbar = () => {
   const [dropdown, setDropdown] = useState(false);
   const [dropdown2, setDropdown2] = useState(false);
   const [dropdown3, setDropdown3] = useState(false);
+  const [dropdown4, setDropdown4] = useState(false);
 
   return (
     <div className="nav-bar">
@@ -60,13 +62,13 @@ const Navbar = () => {
           </div>
           <div
             className="trav items"
-            onMouseEnter={() => setDropdown3(true)}
-            onMouseLeave={() => setDropdown3(false)}
+            onMouseEnter={() => setDropdown4(true)}
+            onMouseLeave={() => setDropdown4(false)}
           >
             <li>
               Travel
               <FontAwesomeIcon icon={faCaretDown} />
-              {dropdown3 && <Dropdown3 />}
+              {dropdown4 && <Dropdown4 />}
             </li>
           </div>
         </ul>

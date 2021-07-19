@@ -1,45 +1,44 @@
 import React from 'react';
 import Cards from './Cards';
-import './Dropdown1.scss';
 const cardsData2 = [
   {
     id: 1,
     title: 'CARD 1',
     content: 'Clark Kent',
-    imgUrl: 'https://unsplash.it/201/200',
+    imgUrl: 'https://unsplash.it/201/219',
   },
   {
     id: 2,
     title: 'CARD 2',
     content: 'Bruce Wayne',
-    imgUrl: 'https://unsplash.it/201/201',
+    imgUrl: 'https://unsplash.it/201/220',
   },
   {
     id: 3,
     title: 'CARD 3',
     content: 'Peter Parker',
-    imgUrl: 'https://unsplash.it/200/202',
+    imgUrl: 'https://unsplash.it/200/221',
   },
   {
     id: 4,
     title: 'CARD 4',
     content: 'Tony Stark',
-    imgUrl: 'https://unsplash.it/201/203',
+    imgUrl: 'https://unsplash.it/201/222',
   },
   {
     id: 5,
     title: 'CARD 5',
     content: 'Reed Richards',
-    imgUrl: 'https://unsplash.it/202/204',
+    imgUrl: 'https://unsplash.it/202/223',
   },
   {
     id: 6,
     title: 'CARD 6',
     content: 'Reed Richards',
-    imgUrl: 'https://unsplash.it/202/205',
+    imgUrl: 'https://unsplash.it/202/224',
   },
 ];
-function Dropdown1() {
+function Dropdown4() {
   return (
     <div>
       <div className="drop-down">
@@ -51,4 +50,4 @@ function Dropdown1() {
   );
 }
 
-export default Dropdown1;
+export default Dropdown4;
