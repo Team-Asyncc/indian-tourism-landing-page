@@ -2,7 +2,6 @@ import React from 'react';
 import './experience.scss';
 const Experience = () => {
   const ExpCard = ({ exp }) => {
-    console.log(exp.url);
     return (
       <div className="exp-card" style={{ backgroundImage: `url(${exp.url})` }}>
         <div className="upper"></div>
