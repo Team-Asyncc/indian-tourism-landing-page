@@ -38,7 +38,7 @@ const cardsData2 = [
     imgUrl: 'https://unsplash.it/202/200',
   },
 ];
-function Dropdown3() {
+function Dropdown4() {
   return (
     <div>
       <div className="drop-down">
@@ -50,4 +50,4 @@ function Dropdown3() {
   );
 }
 
-export default Dropdown3;
+export default Dropdown4;
