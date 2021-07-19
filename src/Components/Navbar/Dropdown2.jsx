@@ -5,37 +5,37 @@ const cardsData2 = [
     id: 1,
     title: 'CARD 1',
     content: 'Clark Kent',
-    imgUrl: 'https://unsplash.it/201/200',
+    imgUrl: 'https://unsplash.it/201/207',
   },
   {
     id: 2,
     title: 'CARD 2',
     content: 'Bruce Wayne',
-    imgUrl: 'https://unsplash.it/201/200',
+    imgUrl: 'https://unsplash.it/201/208',
   },
   {
     id: 3,
     title: 'CARD 3',
     content: 'Peter Parker',
-    imgUrl: 'https://unsplash.it/200/201',
+    imgUrl: 'https://unsplash.it/200/209',
   },
   {
     id: 4,
     title: 'CARD 4',
     content: 'Tony Stark',
-    imgUrl: 'https://unsplash.it/201/201',
+    imgUrl: 'https://unsplash.it/201/210',
   },
   {
     id: 5,
     title: 'CARD 5',
     content: 'Reed Richards',
-    imgUrl: 'https://unsplash.it/202/200',
+    imgUrl: 'https://unsplash.it/202/211',
   },
   {
     id: 6,
     title: 'CARD 6',
     content: 'Reed Richards',
-    imgUrl: 'https://unsplash.it/202/200',
+    imgUrl: 'https://unsplash.it/202/212',
   },
 ];
 function Dropdown2() {
